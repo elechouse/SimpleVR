@@ -220,3 +220,7 @@ NONE
 [EHLINK]: http://www.elechouse.com
 
 [EHICON]: https://raw.github.com/elechouse/CarDriverShield/master/image/elechouse.png
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/elechouse/simplevr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
