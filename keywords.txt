@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map For NRF905
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+VR	KEYWORD3
+myVR	KEYWORD1
+SimpleVR	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+restoreSystemSettings	 KEYWORD2
+checkSystemSettings	 KEYWORD2
+checkVersion	 KEYWORD2
+recognize	 KEYWORD2
+setGroup	 KEYWORD2
+setThreshold	 KEYWORD2
+setEnable	 KEYWORD2
+setDisable	 KEYWORD2
+setStartInfoEnable	 KEYWORD2
+setStartInfoDisable	 KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
