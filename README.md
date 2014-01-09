@@ -160,29 +160,17 @@ Software version: **MAJOR.MINOR.PATCH**
 Hardware version: **MAJOR.MINOR**
 
 [Back to index][index]
-[id0a]: #prompt-0a
-#### Prompt (0A)
-**Prompt** command is only used for Voice Recognition Module to return data when user train voice command.   
-**Format:**  
-NONE  
-**Return:**  
-| AA | 07 | 0A | RECORD | PROMPT | 0A |  
-**RECORD**: record which is in training  
-**PROMPT**: prompt string  
-
-[Back to index][index]
 [id0d]: #voice-recognized-0d
 #### Voice Recognized (0D)
 **Voice Recognized** command is only used for Voice Recognition Module to return data when voice is recognized.  
 **Format:**  
 NONE  
 **Return:**  
-| AA | 07 | 0D | 00 | GRPM | R | RI | SIGLEN | SIG | 0A |  
-**GRPM**: group mode indicate. (FF-not in group mode 00~0A-system group mode 80~87-user group mode)  
-**R**: record which is recognized.  
-**RI**: recognizer index value for recognized record.  
-**SIGLEN**: signature length of the recognized record, 0 means on signature, on SIG area  
-**SIG**: signature content
+| AA | 07 | 0D | 00 | INDEXH | INDEXL | GRP | SCORE | 0A |  
+**INDEXH**: High byte of sentence index value.  
+**INDEXL**: Low byte of sentence index value.  
+**GRP**: Current group.  
+**SCORE**: Score of recognition. The higher the score to recognize the more accurate.
 
 [Back to index][index]
 [idff]: #error-ff
