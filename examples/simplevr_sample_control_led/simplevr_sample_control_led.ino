@@ -84,6 +84,7 @@ void setup(void)
     Serial.print(buf[1], DEC); Serial.println(F(" is selected."));
     if(buf[2] != 0xFF){
       Serial.print(F("Threshold value is ")); Serial.println(buf[2], DEC);
+      Serial.println();
     }
   }
   
