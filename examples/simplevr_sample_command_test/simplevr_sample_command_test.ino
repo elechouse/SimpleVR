@@ -31,7 +31,8 @@ void setup(void)
   
   /** initialize */
   Serial.begin(115200);
-  Serial.println(F("Elechouse SimpleVR Module <Control LED> sample."));
+  Serial.println(F("Elechouse SimpleVR Module test sample."));
+  Serial.println(F("Command index would be displayed here if it is called."));
   
   if(myVR.checkVersion(buf) > 0){
     Serial.println(F("Found SimpleVR"));
