@@ -1,20 +1,19 @@
 # SimpleVR
 
-Arduino Library For [Elechouse SimpleVR](http://elechouse.com)
+Arduino Library For [Elechouse SimpleVR](http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath=168_170&products_id=2263)
 
 ## Feature
 - 2 LEDs are used to indicate the status of the module. *LED above* indicates that whether SimpleVR is enabled, 'on' means 'enable', 'off' means 'disable'; *LED below* blinks once when data is sent or received.
 - 1 uart port with fixed uart baud rate 9600
 - 1 USB port, used to upgrade firmware and configure the ASR command.
 - Support maximum 64 groups, each group can contain maximum 2000 sentences.
-- Command format is compatible with [Elechouse VoiceRecognitionV3](https://github.com/elechouse/VoiceRecognitionV3)
+- Command format is compatible with [Elechouse Voice Recognition V3](https://github.com/elechouse/VoiceRecognitionV3)
 
 ## Quick Start
 
 ### Prepare
 + [SimpleVR module][SimpleVR] 
 + [Arduino board][Arduino]  ([UNO][UNO] recommended)
-+ [Arduino Sensor Shield V07][SensorShieldV7]
 + [Arduino IDE][ArduinoIDE]
 + SimpleVR library([Download zip file][dzip])
 
@@ -187,15 +186,13 @@ NONE
 ## Buy
 [![elechouse][EHICON]][EHLINK]
 
-[EHLINK]: http://www.elechouse.com
+[EHLINK]: http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath=168_170&products_id=2263
 
 [EHICON]: https://raw.github.com/elechouse/CarDriverShield/master/image/elechouse.png
 
 [accessport]: http://www.sudt.com/en/ap/       "AccessPort"
 
 [ArduinoIDE]: http://arduino.cc/en/main/software "Arduino IDE"
-
-[SensorShieldV7]: http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath=74&products_id=2211
 
 [UNO]: http://arduino.cc/en/Main/arduinoBoardUno
 
@@ -205,7 +202,7 @@ NONE
 
 [dzip]: https://github.com/elechouse/SimpleVR/archive/master.zip
 
-[EHLINK]: http://www.elechouse.com
+[EHLINK]: http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath=168_170&products_id=2263
 
 [EHICON]: https://raw.github.com/elechouse/CarDriverShield/master/image/elechouse.png
 
